@@ -1,0 +1,687 @@
+html, body{
+  margin: 0;
+}
+header{
+  font-family: 'PT Sans', sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+body{
+position:relative;
+padding: 0;
+width: 100%;
+font-family: 'PT Sans', sans-serif;
+
+}
+nav{
+  display: flex;
+  background-color: #7DDFE8;
+  font-family: 'PT Sans', sans-serif;
+}
+.nav-row{
+  width:100%;
+}
+.Icon-tag{
+  background-color: #F5005B;
+}
+#icon{
+  background-image: url("../images/filmclub.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F5005B;
+}
+.nav-item{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+
+}
+.nav_link{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item:nth-child(1){
+  background-color: #00A5BF;
+}
+.nav-item:nth-child(2){
+  background-color: #00B7D3
+}
+.nav-item:nth-child(3){
+  background-color: #00D5E7;
+}
+
+.Title_list{
+  background-color:#0B1942;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-bottom: 30px;
+}
+
+
+.Get-Involved-list{
+  padding: 0 10px 10px 15px;
+}
+a{
+  cursor: pointer;
+  font-weight: normal;
+}
+a:link{
+
+  color:#00b7d3;
+}
+
+
+h1{
+  padding-left: 15px;
+  font-family: 'PT Sans', sans-serif;
+
+}
+#Content-title{
+  padding-left: 20px;
+  margin-top: 0;
+  padding-top: 20px;
+}
+.Rashomon{
+  display: flex;
+  color: black;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+#Rashomon-img{
+  background-image: url("../images/rashomon-poster.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-right: 90px;
+  left: 30px;
+  top: 20px;
+  height: 270px;
+  width: 200px;
+}
+#Rashomon-content{
+  left: 100px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.film-title{
+  color:#00b7d3;
+  text-decoration: underline #00b7d3;
+  margin-bottom: 5px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.film_club{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#home-ul{
+  margin-top: 14px;
+  padding-left: 30px;
+}
+.home-li{
+  padding: 5px;
+  padding-left: 5px;
+  list-style-type: circle;
+}
+.TGTR_TBT{
+  display: flex;
+  background-color: #ffffff;
+  height: 400px;
+  color: black;
+  align-items: center;
+}
+
+#Discussion_point{
+  padding-top: 15px;
+  border-top: 1px solid black;
+  margin-bottom: 14px;
+}
+
+#TGTR-img{
+  background-image: url("../images/great-train-poster.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  width:200px;
+}
+
+#TBT-img{
+  background-image: url("../images/bicycle-thief-poster.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  width:200px;
+}
+
+.Nosferatu_Metropolis{
+  background-color: white;
+  display: flex;
+  color: black;
+}
+
+#Nosferatu-img{
+  background-image: url("../images/nosferatu-poster.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  width:200px;
+}
+
+#Metropolis-img{
+  background-image: url("../images/metropolis-poster.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 270px;
+  width:200px;
+}
+#copyright{
+  background-color:#7DDFE8;
+  color: #ffffff;
+}
+/*****Calendar*******/
+
+
+#calendar-date{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: flex-start;
+}
+
+li{
+  list-style: none;
+  background-color: #ffffff;
+  margin: 2px 1px 1px 2px;
+  flex: 0 1 13%;
+}
+
+li div{
+  background-color: #0B1942;
+  width:20px;
+}
+#active{
+  background-color: #F5005B;
+}
+.Title_list_calendar{
+  background-color:#0B1942;
+  color: #ffffff;
+
+}
+/****JOIN*****/
+#profile_pic{
+  background-image: url("../images/profile-placeholder.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+fieldset{
+  border: none;
+}
+/*****MOBILE Home*******/
+@media screen and (max-width: 544px){
+  #icon{
+    height:90px;
+    width:85px;
+    margin: 5px 5px 10px 5px;
+  }
+  .footer-nav{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+  }
+  .nav-item{
+    width: 100%;
+    height: 35px;
+    color: #ffffff;
+  }
+  .Title_p{
+    line-height:200%;
+  }
+  .Rashomon{
+    width: 500px;
+    padding-bottom: 15px;
+  }
+  #Discussion_point{
+    width: 190%;
+  }
+  .TGTR_TBT{
+    width: 500px
+  }
+  .Nosferatu_Metropolis{
+    width: 500px;
+  }
+
+  .TGTR_TBT{
+  justify-content: space-around;
+  }
+
+  .Nosferatu_Metropolis{
+  justify-content: space-around;
+  }
+
+
+  #copyright{
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+  }
+  /*****MOBILE Calendar *******/
+  li{
+    height:60px;
+  }
+ .Title_list_calendar{
+   padding-top: 7px;
+   padding-bottom: 30px;
+ }
+
+ /******Mobile Join*******/
+ #profile{
+   width:100%;
+   height:30%;
+   display: flex;
+   justify-content: center;
+ }
+ #profile_pic{
+   display: flex;
+   justify-content: center;
+   /*align-items: center;*/
+   height:90%;
+   width: 50%;
+   border-radius: 100%;
+ }
+ input{
+   width:100%;
+   height:30px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+ .genres_input{
+   width:20px;
+   height: 18px;
+ }
+ .genres_label{
+   height:30px;
+ }
+ .genres{
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+ .additional{
+   padding-top: 20px;
+ }
+ #add_inputBox{
+   height:80px;
+ }
+ .submit{
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+ #submit{
+   width:120px;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   background-color: #F5005B;
+   color: #ffffff;
+   font-family: 'PT Sans', sans-serif;
+   font-size: 1em;
+ }
+
+}
+/*****TABLET Home******/
+@media screen and (min-width:545px) and (max-width: 768px) {
+  #icon{
+    height:100px;
+    width: 100px;
+    margin: 5px 5px 10px 5px;
+    background-size: cover;
+  }
+  .nav-row{
+    display: flex;
+  }
+  .nav-item{
+    width: 150px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .Get-Involved-list{
+    display: flex;
+  }
+  .Get-Involved{
+    margin: 10px 10px;
+    flex: 0 1 33%;
+  }
+  h1{
+    margin-left: 10px;
+  }
+  .Rashomon{
+    margin-right: 10px;
+    height:760px;
+  }
+  #Rashomon-img{
+    margin: 5px 5px;
+    width: 400px;
+    height: 600px;
+
+  }
+  #Rashomon-content{
+    margin-left: 50px;
+    padding-top: 20px;
+    font-size: 1.5em;
+  }
+  #Discussion_point{
+    width: 300%;
+    padding-top: 15px;
+    border-top: 1px solid black;
+    margin-bottom: 14px;
+  }
+
+  #TGTR-img{
+    width:235px;
+    height: 330px;
+  }
+  #TBT-img{
+    width:235px;
+    height: 330px;
+  }
+
+  #Nosferatu-img{
+    width:235px;
+    height: 330px;
+  }
+  #Metropolis-img{
+    width:235px;
+    height: 330px;
+  }
+  .films{
+    display: flex;
+    height:500px;
+    margin: 0 0;
+    margin-right: 10px;
+  }
+  .TGTR_TBT{
+    flex: 1 1 45%;
+    height:500px;
+  }
+  .Nosferatu_Metropolis{
+    flex:1 1 45%;
+    padding-top: 20px;
+  }
+  .TGTR{
+    padding-left: 34px;
+    padding-right: 30px;
+  }
+  .Nosferatu{
+    padding-top: 24px;
+    padding-right: 30px;
+  }
+  .Metropolis{
+    padding-top: 24px;
+  }
+  footer{
+    display: flex;
+  }
+  #copyright{
+    display: flex;
+    flex: 1 1 50%;
+    padding-right: 10px;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+/*****tablet calendar******/
+  li{
+    height:90px;
+  }
+
+  #calendar-date{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+  /******tablet join********/
+  #Content-title{
+    padding-left: 5px;
+  }
+  .upload{
+    margin-bottom: 20px;
+  }
+  #upload_profile{
+    width:45%;
+    float: left;
+  }
+  #profile{
+    width:100%;
+    height: 270px;
+    margin-right: 0;
+  }
+  #profile_pic{
+    width:90%;
+    height:90%;
+    border-radius: 50%;
+    margin:20px 20px;
+    margin-right: 50px;
+  }
+  .info{
+    width:50%;
+    float: right;
+
+  }
+  label{
+    width: 100px;
+  }
+  #info-inner{
+    margin-bottom: 10px;
+    width:80%;
+
+  }
+  #info-inner:nth-child(2){
+    margin-bottom: 50px;
+  }
+  #info_input{
+    width:100%;
+  }
+  #interest{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #genres{
+    margin-bottom: 15px;
+  }
+  .genres{
+    flex: 1 1 40%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:100px;
+    height:40px;
+  }
+  #add_inputBox{
+    margin-top: 10px;
+    width:100%;
+    height:50px;
+  }
+
+  #submit{
+    margin-top: 20px;
+    width:120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F5005B;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
+  }
+
+}
+/*****Desktop Home******/
+@media screen and (min-width:769px) {
+  #icon{
+    height:100px;
+    width: 100px;
+    margin: 5px 5px 10px 5px;
+    background-size: cover;
+  }
+  .nav-row{
+    display: flex;
+  }
+  .nav-item{
+    height: 120px;
+    width:  120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Get-Involved-list{
+    display: flex;
+    padding: 0 0 ;
+  }
+  .Get-Involved{
+    flex: 1 1 30%;
+    margin: 10px 10px;
+  }
+  .Rashomon{
+    width:45%;
+    margin: 15px;
+    margin-top: 0;
+    height:500px;
+  }
+  #Rashomon-img{
+    width: 50%;
+    height: 450px;
+  }
+  #allFilms{
+    display:flex;
+  }
+  .film_club{
+    margin: 0 0;
+  }
+
+  #Content-title{
+    height:50px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  #Nosferatu-img{
+    width:320px;
+    height:450px
+  }
+  #Metropolis-img{
+    width: 320px;
+    height:450px;
+  }
+  #TBT-img{
+    width:320px;
+    height:450px;
+  }
+  #TGTR-img{
+    width:320px;
+    height:450px;
+  }
+  .films{
+    width: 49%;
+    margin: 15px;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .TGTR{
+    margin-right: 30px;
+  }
+
+  .TGTR_TBT{
+    padding-left: 30px;
+    height:550px;
+    width:100%;
+  }
+  .Nosferatu_Metropolis{
+    margin-right:0;
+    padding-left: 30px;
+    width:100%;
+    height:550px;
+  }
+
+  .Nosferatu{
+    margin-right: 30px;
+  }
+  footer{
+    display: flex;
+  }
+  #copyright{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+  }
+   .calendar-li{
+    height:130px;
+  }
+
+  #calendar-date{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+
+  /*****Desktop Join*****/
+  #profile{
+    height:300px;
+    width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #upload_profile{
+    width:35%;
+    float: left;
+  }
+  #profile_pic{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+  }
+  .info{
+    width: 60%;
+    height: 100px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #info-inner{
+    margin-bottom: 10px;
+  }
+  .info_input{
+    width:95%;
+  }
+  #interest{
+    width:100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .genres{
+    width:30%;
+    height:20px;
+  }
+  #add_inputBox{
+    width:75%;
+    height:50px;
+  }
+  #submit{
+    margin-top: 20px;
+    width:120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #F5005B;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1em;
+  }
+}
